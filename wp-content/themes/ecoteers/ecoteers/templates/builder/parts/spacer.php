@@ -1,0 +1,1 @@
+<div class="<?php echo get_sub_field('spacer_desktop', $id) . ' ' . get_sub_field('spacer_ipad', $id) . ' ' . get_sub_field('spacer_mobile', $id); ?>"></div>

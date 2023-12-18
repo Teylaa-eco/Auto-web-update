@@ -1,0 +1,98 @@
+#wpcontent, #wpfooter {
+	margin-left: 200px;
+}
+
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+	width: 200px;
+}
+
+#adminmenu .wp-not-current-submenu .wp-submenu, .folded #adminmenu .wp-has-current-submenu .wp-submenu {
+	min-width: 200px;
+	left: 200px;
+}
+
+#adminmenu .wp-submenu-head, #adminmenu a.menu-top,
+#adminmenu .wp-submenu li {
+	padding: 10px 5px;
+}
+
+#adminmenu {
+	margin: 0 0 30px 0;
+}
+
+#adminmenu, #adminmenuback, #adminmenuwrap,
+#wpadminbar {
+	background: #0c0d0e;
+}
+
+#adminmenu .wp-submenu {
+	background: #235b8f;
+}
+
+#adminmenu > li.menu-top:hover > a {
+	background: #2271b1;
+	color: #fff;
+}
+
+#adminmenu div.wp-menu-image:before,
+#adminmenu a {
+	color: #fff;
+}
+
+.postbox,
+#menu-management .menu-edit, #menu-settings-column .accordion-container, .comment-ays, .feature-filter, .imgedit-group, .manage-menus, .menu-item-handle, .popular-tags, .stuffbox, .widget-inside, .widget-top, .widgets-holder-wrap, .wp-editor-container, p.popular-tags, table.widefat {
+	border: none;
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+
+#doaction, #doaction2, #post-query-submit,
+.tablenav .actions select,
+.search-box input[name="s"], .tablenav .search-plugins input[name="s"], .tagsdiv .newtag,
+.wp-core-ui p .button,
+.wrap .page-title-action,
+.wp-core-ui .button-primary,
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+	border-radius: 50px;
+	border: none;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+
+#doaction, #doaction2, #post-query-submit {
+	border: 1px solid;
+}
+
+#menu-dashboard:before,
+#toplevel_page_wpcf7:before,
+#toplevel_page_woocommerce:before,
+#menu-appearance:before,
+#menu-plugins:before {
+	content: 'Algemeen';
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	padding: 10px 15px;
+	background: #202427;
+	margin-block: 10px;
+}
+
+#toplevel_page_wpcf7:before {
+	content: 'Contact';
+}
+
+#toplevel_page_woocommerce:before {
+	content: 'Winkel';
+}
+
+#menu-appearance:before {
+	content: 'Website instellingen';
+}
+
+#menu-plugins:before {
+	content: 'Plugins & overige';
+}
+
+#edittag {
+	max-width: 100%;
+}
